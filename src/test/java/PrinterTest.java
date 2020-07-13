@@ -24,8 +24,8 @@ public class PrinterTest {
     }
 
     @Test
-    public int reduceToner(){
-        printer.reduceToner(30);
-        assertEquals(70, printer.getTonerVolume());
+    public void reduceToner(){
+        printer.getTonerVolume();
+        assertEquals(70, printer.reduceToner(30));
     }
 }

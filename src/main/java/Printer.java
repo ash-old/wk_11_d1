@@ -23,7 +23,7 @@ public class Printer {
 
 
     public int reduceToner(int pages) {
-
+//        getTonerVolume();
         return tonerVolume - pages;
     }
 }
